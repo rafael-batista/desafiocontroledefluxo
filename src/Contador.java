@@ -19,7 +19,7 @@ public class Contador {
     }
 
     public static void contagem(int paramUm, int paramDois) throws ParametrosInvalidosException{
-        if(paramUm < paramDois){
+        if(paramUm > paramDois){
             throw new ParametrosInvalidosException();
         }
 
